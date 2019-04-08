@@ -16,5 +16,7 @@ repositories {
 dependencies {
 	//ToDo:填写devtools的依赖
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-devtools'
+	implementation 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
